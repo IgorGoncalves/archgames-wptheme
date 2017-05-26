@@ -1,0 +1,122 @@
+// ==========================================================================
+// Theme Style Main
+// ==========================================================================
+
+/*!
+Theme Name: Odin
+Author URI: http://wpod.in/
+Description: Odin main stylesheet.
+Author: the Odin team
+Author URI: http://wpod.in/#colaboradores
+*/
+
+@import
+        "variables",           // Theme       Custom Variables
+        "bootstrap/bootstrap", // Bootstrap   Styles Core
+        "wordpress/wordpress", // WordPress   Styles Core
+        //"woocommerce",       // WooCommerce Styles Core
+        "odin/core",           // Odin        Styles Core
+        "layout"               // Theme       Custom Layout
+;
+
+html, body {
+  color: #484848;
+  background-color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  line-height: 32px;
+  vertical-align: baseline;
+  letter-spacing: normal;
+  word-spacing: 0px;
+  font-weight: 300;
+  font-style: normal;
+  font-variant: normal;
+  text-transform: none;
+  text-decoration: none;
+  text-align: start;
+  text-indent: 0px;
+}
+
+p {
+  text-align: justify;
+}
+
+a {
+  color: #84fab0ff;
+}
+
+a:hover {
+  color: #84fab088;
+  text-decoration: none;
+}
+
+h2 {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 25px;
+}
+h2 a {
+  color: #8fd3f4ff;
+}
+
+h2 a:hover {
+  color: #8fd3f488;
+  text-decoration: none;
+}
+
+.entry-meta{
+  font-size: 12px;
+}
+
+.widgettitle::before{
+  content: " ";
+  width: 10px;
+  height: 10px;
+  background: #84fab0ff;
+  position: absolute;
+  margin-left: -5px;
+}
+
+.widget-title::before::after{
+  content: " ";
+  width: 10px;
+  height: 10px;
+  background: #84fab0ff;
+  position: absolute;
+  margin-left: -10px;
+}
+
+div.custom-header{
+  text-align: center;
+  margin-left: -7.9vw;
+  margin-right: -7.9vw;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  background: #EDF0F566;
+}
+
+
+aside.widget:not(.widget_search){
+  min-height: 25vh;
+  border-right: 2px solid #F8F8F8;
+}
+
+.widget li {
+  list-style-type: none;
+}
+
+#sidebar{
+  border-left: 2px solid #F8F8F8;
+  height: 500px;
+}
+
+#logo-site {
+   min-width: 260px;
+}
+
+
+@media (min-width: 786px){
+  #logo-site{
+
+  }
+}
