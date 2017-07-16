@@ -15,6 +15,7 @@ get_header();
 
 			<?php
 				// Start the Loop.
+
 				while ( have_posts() ) : the_post();
 
 					// Include the page content template.
@@ -30,5 +31,5 @@ get_header();
 	</main><!-- #main -->
 
 <?php
-get_sidebar();
+//get_sidebar();
 get_footer();

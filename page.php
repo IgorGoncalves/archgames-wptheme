@@ -12,24 +12,9 @@
 
 get_header(); ?>
 
-	<div class="flexslider">
-		<ul class="slides">
-			<li>
-<!--				<img src="slide1.jpg" />-->
-			</li>
-			<li>
-<!--				<img src="slide2.jpg" />-->
-			</li>
-			<li>
-<!--				<img src="slide3.jpg" />-->
-			</li>
-			<li>
-<!--				<img src="slide4.jpg" />-->
-			</li>
-		</ul>
-	</div>
-	<main id="content" class="<?php echo odin_classes_page_full(); ?>" tabindex="-1" role="main">
 
+	<main id="content" class="<?php echo odin_classes_page_full(); ?>" tabindex="-1" role="main">
+		dsadasdsa
 			<?php
 				// Start the Loop.
 				while ( have_posts() ) : the_post();
@@ -42,6 +27,7 @@ get_header(); ?>
 						comments_template();
 					endif;
 				endwhile;
+
 			?>
 
 	</main><!-- #main -->

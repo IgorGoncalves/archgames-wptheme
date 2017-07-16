@@ -58,7 +58,7 @@
 				<?php endif ?>
 
 				<?php if ( get_header_image() ) : ?>
-					<div class="custom-header row" data-spy="affix" data-offset-top="50" data-offset-bottom="200">
+					<div class="custom-header row" data-spy="affix" data-offset-top="300" data-offset-bottom="300">
 						<div class="logobar col-xs-10 col-xs-offset-1 col-md-2 col-md-offset-1">
 							<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
 								<img id="logo-site" class="img-responsive" src="<?php header_image(); ?>" width="<?php echo esc_attr( get_custom_header()->width ); ?>" height="<?php echo esc_attr( get_custom_header()->height ); ?>" alt="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" />

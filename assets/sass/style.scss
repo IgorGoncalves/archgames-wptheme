@@ -157,8 +157,36 @@ h2 {
 // Body
 #content{
   background: #fff;
+  margin:0 auto;
+  float: none;
+  display: flex;
 }
 
+
+#my-slides {
+  margin:0 auto;
+  float: none;
+  .slides {
+    list-style: none;
+    li {
+      position: relative;
+      display: flex;
+      .wp-post-image{
+        position: relative;
+        max-width: 65vw;
+        margin: 0 auto;
+      }
+      .post-title{
+        position: absolute;
+        padding: 8px;
+        background: rgba(132,250,176, 1);
+        color: #fff;
+        bottom:80px;
+        right:45px;
+      }
+    }
+  }
+}
 
 
 //Widgets
